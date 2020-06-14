@@ -1,17 +1,25 @@
-// If Else Condition
+// this is the first tutorial
+// this sections is talking about variables on javascript
 
-const firstName = 'John';
-const isMarry = true;
+// variable declaration
+// using constant keyword
+const userName = 'Ivandjoh'
 
-function getProfile(firstName, isMarry) {
-    if(isMarry){
-        return firstName + ' already Married';
-    }else {
-        return firstName + ' is Single';
-    }
+// using let keyword
+let userAccount = 'ivandjoh'
+
+function generateContents(userName, userAccount) {
+    return `
+    <h3>let & const variable</h3>
+    to create a variable in Javascript you can use constant variable by declare<br />
+    <b>const userName = '${userName}';</b><br />
+    or you can use let by declare <br />
+    <b>let userAccount = '${userAccount}';</b>
+    `
 }
 
-const app = getProfile(firstName, isMarry)
+const app = generateContents(userName, userAccount);
+
 
 // output the contents
 document.getElementById('app').innerHTML = app;
