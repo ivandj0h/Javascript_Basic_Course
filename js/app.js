@@ -33,10 +33,11 @@ console.log('------------------------------------')
 
 // Inheritance
 class Programmer extends Person {
-    
+
+    // create constructor which is running immediately when the class initialized
     constructor(name, age, weight, language) {
         super(name, age, weight)
-        
+         // creating variables called properties in class based
         this.language = language
     }
 }
