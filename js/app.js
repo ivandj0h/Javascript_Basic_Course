@@ -1,17 +1,20 @@
-// If Else Condition
+// to create a class, first we initialization it by typing class
+class Profile {
 
-const firstName = 'John';
-const isMarry = true;
+    // this is a constructor
+    // this method will running automatically when this class is instantiate
+    constructor(name) {
+        this.name = name
+    }
 
-function getProfile(firstName, isMarry) {
-    if(isMarry){
-        return firstName + ' already Married';
-    }else {
-        return firstName + ' is Single';
+    // this is a method
+    callMyName() {
+        console.log(`hey, did you call ${this.name} as my Name??`)
     }
 }
 
-const app = getProfile(firstName, isMarry)
+// now we instantiate the Object
+const calling = new Profile("ivandi")
 
-// output the contents
-document.getElementById('app').innerHTML = app;
+// print out into the console
+console.log(calling.callMyName())
