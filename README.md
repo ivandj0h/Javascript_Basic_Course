@@ -7,8 +7,17 @@ JavaScript is among the most powerful and flexible programming languages of the 
 
 in this repository contains many branch that you can find based on the topics, such as variables, data type, functions, etc
 
-### Destructuring in Javascript
-```Destructuring``` assignment is a cool feature that came along with ES6.
-```Destructuring``` is a ```JavaScript expression``` that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. That is, we can extract data from arrays and objects and assign them to variables.
+### Spread Operator in Javascript
+```Spread operator``` is a useful and quick syntax for adding items to ```arrays```, combining arrays or objects, and spreading an array out into a function's arguments.
+
+The ```(…) Spread operator``` is useful for many different routine tasks in JavaScript, including the following:
+1. Copying an array
+2. Concatenating or combining arrays
+3. Using Math functions
+4. Using an array as arguments
+5. Adding an item to a list
+6. Adding to state in React
+7. Combining objects
+8. Converting NodeList to an array
 
 ``` this docs will be update regularly```

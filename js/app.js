@@ -1,9 +1,13 @@
-const myProfile = {
-    myName: 'Ivandi',
-    myAge: 40,
-    myFavouriteLanguage: ['javascript', 'python']
-}
+const myArray = [1, 2, 3, 4]
 
-const { myName, myAge, myFavouriteLanguage } = myProfile;
+// example One
+console.log(Math.max(myArray)) // you would get NaN
+console.log(Math.max(...myArray)) // you would get 4
 
-console.log(`Hello, my name is ${myName}, i am ${myAge} years old and i am a programmer who loves ${myProfile.myFavouriteLanguage[0]} and ${myProfile.myFavouriteLanguage[1]}`)
+// example two
+const myNewArray = [...myArray, 5]
+console.log(myNewArray) // add more element into the array
+
+// example three
+const anotherNewArray = [...myArray, ...myNewArray]
+console.log(anotherNewArray) // [1, 2, 3, 4, 1, 2, 3, 4, 5]
