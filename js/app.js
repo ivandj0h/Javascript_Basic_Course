@@ -1,20 +1,9 @@
-// to create a class, first we initialization it by typing class
-class Profile {
-
-    // this is a constructor
-    // this method will running automatically when this class is instantiate
-    constructor(name) {
-        this.name = name
-    }
-
-    // this is a method
-    callMyName() {
-        console.log(`hey, did you call ${this.name} as my Name??`)
-    }
+const myProfile = {
+    myName: 'Ivandi',
+    myAge: 40,
+    myFavouriteLanguage: ['javascript', 'python']
 }
 
-// now we instantiate the Object
-const calling = new Profile("ivandi")
+const { myName, myAge, myFavouriteLanguage } = myProfile;
 
-// print out into the console
-console.log(calling.callMyName())
+console.log(`Hello, my name is ${myName}, i am ${myAge} years old and i am a programmer who loves ${myProfile.myFavouriteLanguage[0]} and ${myProfile.myFavouriteLanguage[1]}`)

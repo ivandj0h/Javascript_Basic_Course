@@ -7,9 +7,8 @@ JavaScript is among the most powerful and flexible programming languages of the 
 
 in this repository contains many branch that you can find based on the topics, such as variables, data type, functions, etc
 
-### Class in Javascript
-A class is a type of function, but instead of using the keyword ```function``` to initiate it, we use the keyword ```class```, and the properties are assigned inside a ```constructor()``` method.
-
-Similar to ```functions```, ```classes``` have expression forms too. A class expression does not require an identifier after the class keyword. You can use a class expression in a variable declaration and pass it into a function as an argument.
+### Destructuring in Javascript
+```Destructuring``` assignment is a cool feature that came along with ES6.
+```Destructuring``` is a ```JavaScript expression``` that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. That is, we can extract data from arrays and objects and assign them to variables.
 
 ``` this docs will be update regularly```
