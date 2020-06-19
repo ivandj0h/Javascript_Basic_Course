@@ -1,13 +1,45 @@
-const myArray = [1, 2, 3, 4]
+// Create a Class call Person
+class Person {
 
-// example One
-console.log(Math.max(myArray)) // you would get NaN
-console.log(Math.max(...myArray)) // you would get 4
+    // create constructor which is running immediately when the class initialized
+    constructor(name, age, weight) {
+        // creating variables called properties in class based
+        this.name = name
+        this.age = age
+        this.weight = weight
+    }
 
-// example two
-const myNewArray = [...myArray, 5]
-console.log(myNewArray) // add more element into the array
+    // creating function called method in class based
+    displayName() {
+        console.log(`My name is ${this.name}`)
+    }
+    
+    // creating function called method in class based
+    displayAge() {
+        console.log(`My name is ${this.age}`)
+    }
+    
+    // creating function called method in class based
+    displayWeight() {
+        console.log(`My name is ${this.weight}`)
+    }
+}
 
-// example three
-const anotherNewArray = [...myArray, ...myNewArray]
-console.log(anotherNewArray) // [1, 2, 3, 4, 1, 2, 3, 4, 5]
+// now we initialized the object
+console.log(personData = new Person('Arjuna', 7, 30))
+
+// Pembatas
+console.log('------------------------------------')
+
+// Inheritance
+class Programmer extends Person {
+    
+    constructor(name, age, weight, language) {
+        super(name, age, weight)
+        
+        this.language = language
+    }
+}
+
+// now we initialized the object
+console.log(programmerData = new Programmer('Ivandi', 40, 60, 'Javascript & Python'))
