@@ -1,17 +1,17 @@
-// If Else Condition
+// forEach Array Method
+let txt = "";
+let numbers = [45, 4, 9, 16, 25];
+numbers.forEach(myFunction);
 
-const firstName = 'John';
-const isMarry = true;
-
-function getProfile(firstName, isMarry) {
-    if(isMarry){
-        return firstName + ' already Married';
-    }else {
-        return firstName + ' is Single';
-    }
+function myFunction(value) {
+  txt = txt + value + " ";
 }
 
-const app = getProfile(firstName, isMarry)
+console.log(txt);
 
-// output the contents
-document.getElementById('app').innerHTML = app;
+// Array Sort
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits);
+fruits.sort();
+fruits.reverse();
+console.log(fruits);

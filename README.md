@@ -1,10 +1,23 @@
 ## Javascript Basic Course
 
-### About the Course
+### Arrays
 
-Why Learn JavaScript?
-JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.
+The `Array` object lets you store multiple values in a single variable. It stores a fixed-size sequential collection of elements of the same type. An `Array` is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+Use the following syntax to create an `Array` object −
 
-in this repository contains many branch that you can find based on the topics, such as variables, data type, functions, etc
+`var fruits = new Array( "apple", "orange", "mango" );`
 
-``` this docs will be update regularly```
+The `Array parameter` is a list of strings or integers. When you specify a single numeric parameter with the Array constructor, you specify the initial length of the array. The maximum length allowed for an array is 4,294,967,295.
+
+`Array` have several methods that can be use. The methods are:⁣⁣⁣
+
+- push⁣⁣
+- slice⁣⁣⁣
+- toString⁣⁣
+- shift⁣⁣
+- map⁣⁣
+- pop⁣⁣
+- filter⁣⁣
+- includes⁣⁣
+
+`this docs will be update regularly`
